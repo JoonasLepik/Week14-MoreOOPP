@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPPet", "OOPPet\OOPPet.csproj", "{0BC22A4E-7A3B-4F47-9B35-EB609CA06A05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPPet", "OOPPet\OOPPet.csproj", "{0BC22A4E-7A3B-4F47-9B35-EB609CA06A05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPCar", "OOPcar\OOPCar.csproj", "{853B973B-67E3-4927-90D6-657E073E31A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOPCar", "OOPcar\OOPCar.csproj", "{853B973B-67E3-4927-90D6-657E073E31A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesFromFile", "MoviesFromFile\MoviesFromFile.csproj", "{96E96814-5877-4EE6-BEA0-EC392DE739D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrozenFile", "FrozenFile\FrozenFile.csproj", "{A389EF0F-2B37-4885-BFAC-2C89EE58E75A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{853B973B-67E3-4927-90D6-657E073E31A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{853B973B-67E3-4927-90D6-657E073E31A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{853B973B-67E3-4927-90D6-657E073E31A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96E96814-5877-4EE6-BEA0-EC392DE739D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E96814-5877-4EE6-BEA0-EC392DE739D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E96814-5877-4EE6-BEA0-EC392DE739D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E96814-5877-4EE6-BEA0-EC392DE739D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A389EF0F-2B37-4885-BFAC-2C89EE58E75A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A389EF0F-2B37-4885-BFAC-2C89EE58E75A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A389EF0F-2B37-4885-BFAC-2C89EE58E75A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A389EF0F-2B37-4885-BFAC-2C89EE58E75A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -32,13 +32,47 @@ namespace OOPCar
                 Console.WriteLine($"fuel: {fuelTank}");
                 Console.WriteLine($"odometer: {odometer}");
             }
+            public void Drive()
+            {
+                fuelTank -= 5;
+                odometer += 100;
+                Console.WriteLine("Vroom-Vroom");
+            }
+            public int FuelTank
+            {
+                get { return fuelTank;  }
+            }
+            public int Odometer
+            {
+                get { return odometer; }
+            }
+            public string Color
+            {
+                get { return color; }
+            }
+            public string RegistrationNumber
+            {
+                get { return registrationNumber; }
+            }
+            public string ModelName
+            {
+                get { return modelName; }
+            }
+            public string MarkName
+            {
+                get { return markName; }
+            }
 
 
         }
         static void Main(string[] args)
         {
-            Car myCar = new Car("Toyota", "Celica", "777GRD", "orange");
-
+            Car myCar = new Car("Toyota", "Celica", "777GRD", "Orange");
+            while (myCar.FuelTank > 0)
+            {
+                myCar.Drive();
+            }
+            myCar.ShowCarData();
         }
     }
 }
